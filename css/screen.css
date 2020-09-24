@@ -6,6 +6,14 @@ body {
 	background-color: #DDF4FB;
 	
 }
+h1 {
+	font-size: 2.3em;
+	color: black;
+}
+h2{
+	font-size:1.5em;
+	color:black;
+}
 form {
     width: 100%;
 	height: 150px;
@@ -16,6 +24,4 @@ form {
 	box-sizing:border-bottom-width;
 	
 }
-input[type=tel]:focus {
-	background-color: #EADED9;
-}
+

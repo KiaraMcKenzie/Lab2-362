@@ -9,20 +9,24 @@
 </head>
 <body>
 <header>
-	<h1> Entry Form</h>
+	<h1> Entry Form</h1>
+	<h2> Please enter the following information</h2>
 </header>
+<!-- /* Using listing because I could not stop the form  -->
+<!-- from stacking next to each instead of on top -->
+<form>
 <form name="Entry Form" action="" method="get" autocomplete="on">
 
 <label for="Phone Number">Phone Number:</label>
-<input type="tel" name="phone_field">
+<input type="tel" name="phone_field" value="555-555-5555">
 
 <label for="email"> E-mail:</label>
-<input type="email" name="email_field">
+<input type="email" name="email_field" value="some@one.com">
 
 <label for="Birthday"> Birthday: </label>
 <input type="date" id="birthday">
 
 <input type="submit" value="Submit">
-</fieldset>
+</form>
 </body>
 </html>
